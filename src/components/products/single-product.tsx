@@ -14,7 +14,7 @@ export const SingleProduct = () => {
             objectFit="cover"
           />
         </div>
-        <div className="flex flex-col gap-1 px-3 py-2">
+        <div className="flex flex-col gap-1 px-3 py-4">
           <h3 className="text-md font-medium text-[#343d63]">
             The Startup’s Guide to the GDPR
           </h3>
