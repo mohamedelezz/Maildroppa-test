@@ -4,7 +4,7 @@ import Link from "next/link";
 export const SingleProduct = () => {
   return (
     <Link href="/products/1">
-      <div className="w-full max-w-80 border-[1px] border-solid  border-gray-300 bg-white rounded-lg">
+      <div className="w-full max-w-96 border-[1px] border-solid  border-gray-300 bg-white rounded-lg mx-auto">
         <div className="w-full max-h-40 overflow-hidden">
           <Image
             width={400}

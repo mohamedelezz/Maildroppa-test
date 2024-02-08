@@ -4,7 +4,7 @@ export const Home = ({ products }: { products: string[] }) => {
   console.log(products);
 
   return (
-    <div>
+    <div className="flex-1 container mx-auto">
       <Products />
 
     </div>
