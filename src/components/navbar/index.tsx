@@ -29,8 +29,8 @@ export const Navbar = () => {
                 key={id}
                 href={href}
                 className={`
-                block py-2 pr-4 pl-3  rounded   md:p-0 
-                ${path===href && 'bg-blue-700 md:text-blue-700 md:bg-transparent '}
+                block py-2 pr-4 pl-3  rounded text-gray-400   md:p-0 
+                ${path===href && 'bg-gray-700 md:text-gray-200 md:bg-transparent '}
                 `}
               >
                 {label}

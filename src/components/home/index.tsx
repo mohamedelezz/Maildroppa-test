@@ -5,7 +5,7 @@ import { Products } from "..";
 export const Home = ({ Products }: { Products: Blogs[] }) => {
   return (
     <div>
-      <Products />
+      {/* <Products /> */}
 
     </div>
   );
