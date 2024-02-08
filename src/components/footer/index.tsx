@@ -5,28 +5,28 @@ import Link from "next/link";
 
 export const Footer = () => {
   return (
-    <footer className="bg-white">
-      <div className="container mx-auto px-4 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-0">
-          <div className="flex justify-center md:justify-start">
+    <footer className="bg-white  w-full bottom-0 z-10">
+      <div className=" px-4 py-1 ">
+        <div className="flex flex-col md:flex-row gap-2 md:gap-0  items-center justify-between ">
+          <div className=" ">
             <Link href="/">
               <Image
                 width={50}
                 height={50}
                 src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
                 alt="Workflow"
-                className="h-8 w-auto"
+                className=""
               />
             </Link>
           </div>
-          <div className="text-center md:text-left">
+          <div className="">
             <p className="text-gray-700">
               © 2020 Workflow. All rights reserved.
             </p>
           </div>
-          <div className="text-center md:text-right">
+          <div className="">
             <p className="text-gray-700">
-              Made with ❤️ by <a href="https://twitter.com/vercel">Vercel</a>
+              Made with ❤️ by Vercel
             </p>
           </div>
         </div>

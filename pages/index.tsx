@@ -1,12 +1,15 @@
 import { Home } from "@/src/components";
+import { Blogs } from "@/typs";
+import axios from "axios";
 
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
   // api async 
-  const products: string[] = ['lklllllllllllllll'];
+  const res = await axios.get('https://jsonplaceholder.typicode.com/posts');
+  const Products: Blogs[] = res?.data;
 
   return {
     props: {
-      products,
+      Products,
     },
   };
 };
