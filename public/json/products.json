@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Product-1",
+        "type": "string"
+    },
+    {
+        "name": "Product-2",
+        "type": "string"
+    }
+]
