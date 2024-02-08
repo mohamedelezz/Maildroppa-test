@@ -4,11 +4,11 @@ import Link from "next/link";
 export const SingleProduct = () => {
   return (
     <Link href="/products/1">
-      <div className="w-full max-w-40 min-w-80 border-solid  border-gray-300 bg-white rounded-lg">
-        <div className="max-h-40 overflow-hidden">
+      <div className="w-full max-w-80 border-solid  border-gray-300 bg-white rounded-lg">
+        <div className="w-full max-h-40 overflow-hidden">
           <Image
-            width={500}
-            height={500}
+            width={400}
+            height={400}
             src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
             alt="Workflow"
             objectFit="cover"

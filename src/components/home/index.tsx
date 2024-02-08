@@ -6,6 +6,7 @@ export const Home = ({ products }: { products: string[] }) => {
 
   return (
     <div>
+      <Products />
 
     </div>
   );
