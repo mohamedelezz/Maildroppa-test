@@ -1,3 +1,7 @@
+import { SingleProduct } from ".";
+
 export const Products = () => {
-  return <div></div>;
+  return <div>
+    <SingleProduct />
+  </div>;
 };
