@@ -5,7 +5,7 @@ import Link from "next/link";
 export const Products = ({ products }: { products: Product[] }) => {
   return (
     <section className="pt-14">
-      <h1 className="text-[#343d63] text-4xl mb-20 font-bold text-center">
+      <h1 className="text-center text-gray-500 font-bold text-5xl mb-20">
         Our Products
       </h1>
       <div className="max-md:px-5 mb-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 ">
