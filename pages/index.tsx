@@ -1,12 +1,12 @@
 import { Home } from "@/src/components";
 
-export const getServerSideProps = async () => {
-  // api async 
-  const products: string[] = ['lklllllllllllllll'];
+import DATA from "../public/json/products.json";
 
+export const getStaticProps = async () => {
+  console.log({ DATA });
   return {
     props: {
-      products,
+      products: DATA.products,
     },
   };
 };

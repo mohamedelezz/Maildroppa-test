@@ -1,12 +1,19 @@
+import { useEffect, useState } from "react";
 import { Products } from "..";
+import { Product } from "@/typs";
 
-export const Home = ({ products }: { products: string[] }) => {
-  console.log(products);
+export const Home = ({ products }: { products: Product[] }) => {
+  const [isMounting, setIsMounting] = useState(false);
 
+  useEffect(() => {
+    setIsMounting(true);
+  }, []);
+  if (!isMounting) {
+    return null;
+  }
   return (
     <div className="flex-1 container mx-auto">
-      <Products />
-
+      <Products products={products} />
     </div>
   );
 };

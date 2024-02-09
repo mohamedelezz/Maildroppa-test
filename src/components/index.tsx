@@ -10,4 +10,6 @@ export { PageNotFound } from "./page-not-found";
 
 export { Products } from "./products";
 
+export { ProductCard } from "./products";
+
 export { SingleProduct } from "./products";
