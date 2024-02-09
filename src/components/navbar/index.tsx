@@ -7,12 +7,12 @@ import { useState } from "react";
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
   const path = usePathname();
-  
+
   return (
     <>
     <nav className="bg-gray-100 border-[1px] border-[#d9ddf5] px-2 sm:px-4 py-2.5  shadow-sm ">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
-        <Link href="#" className="flex">
+        <Link href="/" className="flex">
           <Image
             width={50}
             height={50}

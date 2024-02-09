@@ -3,8 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const SingleProduct = ({ product }: { product: Product }) => {
-  console.log(product);
-
   return (
     <div className="container mx-auto py-8">
       <div className="flex flex-wrap">
